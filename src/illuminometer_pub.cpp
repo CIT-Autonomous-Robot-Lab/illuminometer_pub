@@ -10,7 +10,7 @@ int main(int argc, char **argv) {
   ros::Publisher pub =
       nh.advertise<std_msgs::Float64>("luminous_intensity", 1000);
 
-  FILE *pipe = popen("./td-usb iws660 get read --loop=500", "r");
+  FILE *pipe = popen("td-usb iws660 get read --loop=500", "r");
   if (!pipe) {
     ROS_ERROR("Failed to execute command");
     return 1;

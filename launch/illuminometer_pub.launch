@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="illuminometer_pub" type="talker" name="illuminometer_pub_node"/>
+</launch>
