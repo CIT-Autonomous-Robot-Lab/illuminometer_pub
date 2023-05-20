@@ -1,7 +1,7 @@
 # illuminometer_pub
 
 ## 使用センサ
-* IWS660-CS
+* [IWS660-CS](https://tokyodevices.com/items/228)
 
 #### 仕様
 |  |  |  |  |
@@ -23,4 +23,4 @@
 |  |  |  |
 | - | - | - |
 | 名前 | 型 | 説明 |
-| luminous_intensity | std_msgs::Float64 | iws660から反射強度(受光強度)をpublish |
+| luminous_intensity | std_msgs::Float64 | iws660から照度をpublish |
