@@ -1,4 +1,4 @@
-# illuminometer_pub [![build-test](https://github.com/CIT-Autonomous-Robot-Lab/illuminometer_pub/blob/main/.github/workflows/action.yml/badge.svg)](https://github.com/CIT-Autonomous-Robot-Lab/illuminometer_pub/actions)
+# illuminometer_pub [![build-test](https://github.com/CIT-Autonomous-Robot-Lab/illuminometer_pub/actions/workflows/action.yml/badge.svg)](https://github.com/CIT-Autonomous-Robot-Lab/illuminometer_pub/actions)
 
 ## Overview
 ROSで照度計(IWS660-CS)を動かすためのパッケージです。
