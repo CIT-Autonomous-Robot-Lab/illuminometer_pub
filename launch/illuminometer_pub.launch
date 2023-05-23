@@ -1,3 +1,6 @@
+<!-- SPDX-FileCopyrightText: 2023 Atsuki Usui <kmmm13037@gmail.com> -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+
 <launch>
   <node pkg="illuminometer_pub" type="talker" name="illuminometer_pub_node"/>
 </launch>

@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2023 Atsuki Usui <kmmm13037@gmail.com>
+// SPDX-License-Identifier: Apache-2.0
+
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
