@@ -28,18 +28,19 @@ catkin build
 source devel/setup.bash
 ```
 ## How to use
-1. [td-usb](https://github.com/tokyodevices/td-usb)をcloneする。
-2. permissionを設定する。  
+1. ``apt install libusb-dev``を実行する。
+2. [td-usb](https://github.com/tokyodevices/td-usb)をcloneする。
+3. permissionを設定する。  
    ``/etc/udev/rules.d/99-usb-tokyodevices.rules``を作成し、以下の行を含むファイルを作成してください。
    ```
    SUBSYSTEM=="usb", ATTR{idVendor}=="16c0", ATTR{idProduct}=="05df", MODE="0666"
    ```
    16c0と05dfは、使用する必要があるデバイスの VID/PID に置き換えてください。
    
-3. td-usbの実行ファイルを``/usr/local/bin``に移動する。  
+4. td-usbの実行ファイルを``/usr/local/bin``に移動する。  
      ``sudo mv /path/to/td-usb /usr/local/bin/``
      
-4. ```
+5. ```
    roslaunch illuminometer_pub illuminometer_pub.launch
    ```
    
