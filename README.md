@@ -1,4 +1,4 @@
-# illuminometer_pub
+# illuminometer_pub [![build-test](https://github.com/CIT-Autonomous-Robot-Lab/illuminometer_pub/blob/main/.github/workflows/action.yml/badge.svg)](https://github.com/CIT-Autonomous-Robot-Lab/illuminometer_pub/actions)
 
 ## Overview
 ROSで照度計(IWS660-CS)を動かすためのパッケージです。
@@ -36,3 +36,11 @@ source devel/setup.bash
 | - | - | - |
 | 名前 | 型 | 説明 |
 | luminous_intensity | std_msgs::Float64 | iws660から照度をpublish |
+
+## Author
+  臼井温希  
+  千葉工業大学 先進工学部 未来ロボティクス学科  
+  kmmm13037@gmail.com
+
+## Lincense
+"illuminometer_pub" is under [Apache License 2.0](https://github.com/CIT-Autonomous-Robot-Lab/illuminometer_pub/blob/main/LICENSE)
