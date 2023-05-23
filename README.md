@@ -39,7 +39,9 @@ source devel/setup.bash
 3. td-usbの実行ファイルを``/usr/local/bin``に移動する。  
      ``sudo mv /path/to/td-usb /usr/local/bin/``
      
-4. ``roslaunch illuminometer_pub illuminometer_pub.launch``
+4. ```
+   roslaunch illuminometer_pub illuminometer_pub.launch
+   ```
    
 ## Topic
 |  |  |  |
