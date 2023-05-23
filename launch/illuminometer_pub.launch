@@ -2,5 +2,5 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
 <launch>
-  <node pkg="illuminometer_pub" type="luminous" name="illuminometer_pub_node"/>
+  <node pkg="illuminometer_pub" type="luminous_intensity" name="illuminometer_pub_node"/>
 </launch>

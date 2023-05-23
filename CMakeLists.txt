@@ -16,8 +16,8 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(luminous src/illuminometer_pub.cpp)
-target_link_libraries(luminous ${catkin_LIBRARIES})
-add_dependencies(luminous ${catkin_EXPORTED_TARGETS})
+add_executable(luminous_intensity src/illuminometer_pub.cpp)
+target_link_libraries(luminous_intensity ${catkin_LIBRARIES})
+add_dependencies(luminous_intensity ${catkin_EXPORTED_TARGETS})
 
 
