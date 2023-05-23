@@ -29,7 +29,7 @@ source devel/setup.bash
 ```
 ## How to use
 1. ``apt install libusb-dev``を実行する。
-2. [td-usb](https://github.com/tokyodevices/td-usb)をcloneする。
+2. [td-usb](https://github.com/tokyodevices/td-usb)をcloneし、``make``する。
 3. permissionを設定する。  
    ``/etc/udev/rules.d/99-usb-tokyodevices.rules``を作成し、以下の行を含むファイルを作成してください。
    ```
