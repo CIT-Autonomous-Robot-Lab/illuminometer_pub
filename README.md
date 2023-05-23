@@ -3,6 +3,9 @@
 ## Overview
 ROSで照度計(IWS660-CS)を動かすためのパッケージです。
 
+## Requirement
+* Ubuntu 20.04
+* ROS noetic
 ## 使用センサ
 * [IWS660-CS](https://tokyodevices.com/items/228)
 
