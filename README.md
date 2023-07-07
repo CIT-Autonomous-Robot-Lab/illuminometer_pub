@@ -43,7 +43,14 @@ source devel/setup.bash
 5. ```
    roslaunch illuminometer_pub illuminometer_pub.launch
    ```
-   
+   ```
+   rosrun illuminometer_pub luminous_intensity
+   ```
+
+## program
+* [average_luminous_intensity.py](/average_luminous_intensity.py)  
+平均照度を算出してくれます  
+```python average_luminous_intensity.py <bag_file_path>```
 ## Topic
 |  |  |  |
 | - | - | - |
